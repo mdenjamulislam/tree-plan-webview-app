@@ -1,0 +1,375 @@
+/*------------------------------------------------------------------------|
+	Theme name: Tree-plan app 
+	Author: Md.Enjamul Islam
+	Author URI: http://enjamul.ga
+	Description: 
+
+    Tags: 
+
+
+    text-color: #213e3b;
+    menu-color: #69a6ab;
+    botton-color: #ff7e67;
+    background-color: #00656c;
+||--------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------|
+	[ Table of column ]
+
+	1.0. Google font
+	2.0. Common css
+	3.0. Body
+    4.0. Header 
+
+
+||--------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------|
+	1.0. Google font
+||------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------|
+	2.0 Common CSS 
+||------------------------------------------------------------------------*/
+a {text-decoration: none;}
+a:active,a:focus,a:hover {
+	color: #613435;
+	text-decoration: none;
+}
+p {
+	font-size: 15px;
+	letter-spacing: 0.03em;
+    line-height: 1.8;
+    margin-bottom: .5em;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+svg {
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: cursive;
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 10px 0;
+    letter-spacing: .5px;
+}
+h1,.h1 {font-size: 42px !important;}
+h2,.h2 {font-size: 35px !important;}
+h3,.h3 {font-size: 28px !important;}
+h4,.h4 {font-size: 24px !important;}
+h5,.h5 {font-size: 18px !important;}
+h6,.h6 {font-size: 16px !important;}
+
+ul,ol {list-style-type: none;}
+
+input, button, textarea {
+	outline: 0;
+    border: none;
+}
+input[type="text"], input[type="email"] {}
+input:facus, button:facus, textarea:facus {
+	background: #319D5A;
+}
+input[type="submit"] {
+    border: none;
+	background: #00656c !important;
+}
+input[type="submit"]:hover {
+	background: #DD2020;
+}
+.button {
+    background-color: #ff7e67;
+
+    transition: all .3s ease-in-out;
+}
+.button:hover {}
+
+/* ---------- html tag typograpy end -- */
+
+
+/*--- Background color of page ---*/
+.primary-bg {
+    background-color: #00656c;
+}
+.bg-app-menu {
+    background-color: #00686f !important;
+}
+
+/*-- button --*/
+
+.btn-button {
+    color: #fff;
+    background: #ff7e67;
+}
+.btn-button:hover {
+    background: #f35c41;
+}
+
+
+
+/*------------------------------------------------------------------------|
+	3.0 Body 
+||------------------------------------------------------------------------*/
+
+
+*{margin: 0;padding: 0;}
+
+body {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: cursive;
+	line-height: 1.5;
+	word-spacing: 1;
+	letter-spacing: 0;
+    color: #213e3b;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*------------------------------------------------------------------------|
+	4.0 Header 
+||------------------------------------------------------------------------*/
+
+#header {}
+
+
+
+/*--- Navbar ---*/
+a.navbar-brand {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+span.navbar-toggler-icon {
+    color: #fff;
+}
+
+/*-- App menu --*/
+
+.app-menu {}
+.app-menu a.menu-item {}
+.app-menu a.menu-item i {
+    color: #4d969a;
+}
+.app-menu a.menu-item i:hover, .app-menu a.menu-item.active i {
+    color: #fff;
+}
+
+/*-- Search bar ---*/
+
+.search-bar {
+}
+.search-bar form {
+    color: #69a6ab;
+    position: relative;
+}
+.search-bar form input {
+    color: #c6cccb;
+}
+.search-bar form .search-icon {
+    color: #c6cccb;
+    background: none;
+    border: none;
+    margin-left: -30px;
+    top: 8px;
+    
+}
+.search-bar .search-icon i {
+    color: #c6cccb;
+    font-size: 18px;
+}
+.search-bar .filter {
+    margin-left: 20px;
+}
+
+/*------------------------------------------------------------------------|
+	5.0 Site Content
+||------------------------------------------------------------------------*/
+
+/*-- Product gallery filter --*/
+
+.item-menu button.btn:hover,.item-menu button.btn:focus {
+    border: none !important;
+    color: #fff;
+}
+.filter-button {
+    font-size: 14px;
+    text-align: center;
+    color: #c6cccb;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.filter-button:hover {
+    color: #ffffff;
+    border: none;
+
+}
+
+.filter-button .active {
+    color: #fff;
+    border: none;
+}
+.port-image {
+    width: 100%;
+}
+
+.gallery_product {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+.gallery_product_cont {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.gallery_product_cont figure {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+.gallery_product_cont img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.gallery_product_cont h4 {
+    font-size: 14px !important;
+    padding: 15px 10px;
+}
+a.cart_add {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff7e67;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+a.cart_add:hover {
+    background-color: #f35c41;
+}
+
+/*--- Popular product ---*/
+.popular_pg {
+    width: 100%;
+    min-height: 200px;
+}
+.popular_product {
+    width: 220px;
+    height: 140px;
+    float: left !important;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: #213e3b;
+    background-color: #ecf4f3;
+    text-align: center;
+    align-items: center !important;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.popular_product_cont {
+    text-align: left;
+}
+.popular_product_cont > h4 {
+    font-size: 16px !important;
+    margin-bottom: 0;
+}
+.popular_product_cont > span {
+    color: #7c918e;
+}
+.popular_product_cont figure {
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+.popular_product_cont img {
+    width: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+.popular_product_cont a.cart_add {
+    left: 50%;
+    bottom: 0;
+    top: 60%;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
