@@ -103,9 +103,13 @@ input[type="submit"]:hover {
 .btn-button {
     color: #fff;
     background: #ff7e67;
+    border: none;
 }
 .btn-button:hover {
     background: #f35c41;
+    outline: 0;
+    border: none;
+    color: #fff;
 }
 
 
@@ -133,8 +137,9 @@ body {
 }
 
 #main {
-    width: 100%;
+    width: 414px;
     height: auto;
+    margin: 0 auto;
     position: relative;
     overflow: hidden;
 }
@@ -164,8 +169,12 @@ span.navbar-toggler-icon {
 }
 
 /*-- App menu --*/
-
-.app-menu {}
+.app-navbar {
+    max-width: 414px;
+    margin: 0 auto;
+}
+.app-menu {
+}
 .app-menu a.menu-item {}
 .app-menu a.menu-item i {
     color: #4d969a;
@@ -329,11 +338,88 @@ a.cart_add:hover {
 
 
 
+/*------------------------------------------------------------------------|
+	Welcome-page 
+||------------------------------------------------------------------------*/
+
+.welcome-page {
+    width: 100%;
+    position: relative;
+    background-color: #ecf4f3;
+}
+.welome-heading {
+    margin-top: 30px;
+}
+.welome-heading > h2 {
+    font-size: 30px !important;
+    font-weight: bolder;
+}
+.welome-heading > p {}
+
+.welcome-cont {}
+.welcome-cont figure {
+
+}
+.welcome-cont figure > img {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.user-acc-btn {
+    display: block;
+    margin: 30px 0 80px;
+}
+.user-acc-btn > button {
+    padding: 5px 50px;
+}
+.user-acc-btn > a {
+    cursor: pointer;
+    display: block;
+}
+.user-acc-btn > a.create-acc {
+    font-size: 16px;
+    color: #213e3b;
+}
+.user-acc-btn > a.forgot {
+    color: #7c918e;
+    margin-top: 40px;
+    transition: all .2s;
+}
+.user-acc-btn > a.forgot:hover {
+    color: #213e3b;
+}
 
 
 
+/*------------------------------------------------------------------------|
+	Single-product-page 
+||------------------------------------------------------------------------*/
+
+.sp-page {}
+
+.sp-cont {}
+
+.top-bar {
+    margin-top: 20px;
+}
+.top-bar > a {
+    float: right;
+    display: inline-block;
+}
+.top-bar > a.back {
+    float: left;
+}
+.top-bar > a > i {
+    color: #213e3b;
+    font-size: 18px;
+}
 
 
+.sp-gallery {}
+.sp-gallery figure {}
+.sp-gallery figure img {}
 
 
 
