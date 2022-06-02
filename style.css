@@ -246,6 +246,7 @@ span.navbar-toggler-icon {
     margin-bottom: 20px;
     border-radius: 20px;
     border: 2px solid #fff;
+    cursor: pointer;
 }
 .gallery_product_cont {
     margin: 10px;
@@ -288,6 +289,8 @@ a.cart_add {
 a.cart_add:hover {
     background-color: #f35c41;
 }
+
+
 
 /*--- Popular product ---*/
 .popular_pg {
@@ -336,7 +339,13 @@ a.cart_add:hover {
 }
 
 
-
+/*--- product_hover ---*/
+.product_hover {
+    transition: all .3s ease-in-out;
+}
+.product_hover:hover {
+    border-color: #f35c41;
+}
 
 /*------------------------------------------------------------------------|
 	Welcome-page 
